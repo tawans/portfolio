@@ -108,7 +108,7 @@ p {
 
 #navbar.navbar--dark {
     background-color: var(--color-pink);
-    padding: 8px;
+    padding: 1px;
 }
 
 .navbar__logo {
