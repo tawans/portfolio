@@ -33,7 +33,7 @@
         <a href="#">Asher</a>
       </div>
       <div class="navbar__menu">
-        <ul class="navbar__menu">
+        <ul class="navbar__menu"> 
           <li class="navbar__menu__item active">Home</li>
           <li class="navbar__menu__item">About</li>
           <li class="navbar__menu__item">Skills</li>
@@ -43,21 +43,24 @@
         </ul>
       </div>
     </nav>
+    
     <!-- Home -->
-    <section id="Home">
+    <section id="home">
       <img
         src="imgs/profile.jpeg"
         alt="Asher's profile photo"
         class="home__avatar"
       />
-      <h1 class="home__title">Hello, <br />I'm iOS Developer</h1>
+      <h1 class="home__title">Hello, <br/>I'm iOS Developer</h1>
       <h2 class="home__description">
         A Software Engineer who runs without giving up.
       </h2>
+      <button class="home__contact">CONTACT ME</button>
     </section>
     <!-- About -->
-    <section id="about">
-      <h1>About me</h1>
+    <section id="about" class="section">
+      <div class="section__container">
+        <h1>About me</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem
         nemo, officia culpa quos esse optio qui eum aspernatur iusto neque
@@ -66,23 +69,23 @@
       <div class="about__majors">
         <div class="major">
           <div class="major__icon"><i class="fab fa-html5"></i></div>
-          <div id="major__title">Front-end</div>
+          <h2 id="major__title">Front-end</h2>
           <div id="major__description">
             HTML, CSS, JavaScript, TypeScript,
-            <br />React, Vue, Web APIs
+            <br/>React, Vue, Web APIs
           </div>
         </div>
         <div class="major">
-          <div class="major__icon"><i class="fab fa-mobile"></i></div>
-          <div id="major__title">Mobile</div>
+          <div class="major__icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+          <h2 id="major__title">Mobile</h2>
           <div id="major__description">
             Android, iOS, React Native, Flutter,
             <br />Java, Swift, Kotlin
           </div>
         </div>
         <div class="major">
-          <div class="major__icon"><i class="fab fa-server"></i></div>
-          <div id="major__title">Back-end</div>
+          <div class="major__icon"><i class="fa-solid fa-server"></i></div>
+          <h2 id="major__title">Back-end</h2>
           <div id="major__description">
             Java, JavaScript, Swift,
             <br />Rest APIs, GraphGL
@@ -91,15 +94,20 @@
       </div>
       <div id="about__jobs">
         <div class="job">
-          <img src="imgs/jobs/logo__hexar.png" alt="hexar" class="job__logo" />
-          <p class="job__name"></p>
-          <p class="job__period"></p>
+          <img src="imgs/jobs/logo-samsung.png" alt="samsung" class="job__logo" />
+          <div class="job__description">
+          <p class="job__name">Crrently Sansung Software Engineer</p>
+          <p class="job__period">2019 Sept - Until now</p>
+          </div>
         </div>
         <div class="job">
-          <img src="imgs/jobs/logo__hexar.png" alt="hexar" class="job__logo" />
-          <p class="job__name"></p>
-          <p class="job__period"></p>
+          <img src="imgs/jobs/logo-samsung.png" alt="samsung" class="job__logo" />
+          <div class="job__description">
+          <p class="job__name">Crrently Sansung Software Engineer</p>
+          <p class="job__period">2019 Sept - Until now</p>
+          </div>
         </div>
+      </div>
       </div>
     </section>
   <!-- Skills -->
@@ -196,20 +204,20 @@
 
     <!-- Work -->
     <section id="work" class="section">
-     <div class="section__container">
-      <h1>My work</h1>
+      <div class="section__container">
+        <h1>My work</h1>
       <h3>Projects</h3>
       <div class="work__categories">
-        <button class="category__btn selected" data-filter="*">
+        <button class="category__btn active">
           All <span class="category__count">8</span>
         </button>
-        <button class="category__btn" data-filter="front-end">
+        <button class="category__btn">
           Front-end <span class="category__count">3</span>
         </button>
-        <button class="category__btn" data-filter="back-end">
+        <button class="category__btn">
           Back-end <span class="category__count">3</span>
         </button>
-        <button class="category__btn" data-filter="mobile">
+        <button class="category__btn">
           Mobile <span class="category__count">2</span>
         </button>
       </div>
@@ -290,6 +298,7 @@
         </a>
       </div>
      </div>
+      </div>
     </section>
 
     <!-- Testimonials -->
