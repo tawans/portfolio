@@ -26,23 +26,81 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav id="navbar"></nav>
-    <div class="navbar_logo">
-      <i class="fab fa-siaspora"></i>
-      <a href="#">Asher</a>
-    </div>
-    <div class="navbar_menu">
-      <ul class="navbar_menu">
-        <li class="navbar_menu_item">Home</li>
-        <li class="navbar_menu_item">About</li>
-        <li class="navbar_menu_item">Skills</li>
-        <li class="navbar_menu_item">Work</li>
-        <li class="navbar_menu_item">Testimonials</li>
-        <li class="navbar_menu_item">contact</li>
-      </ul>
-    </div>
+    <nav id="navbar">
+      <div class="navbar_logo">
+        <i class="fab fa-siaspora"></i>
+        <a href="#">Asher</a>
+      </div>
+      <div class="navbar_menu">
+        <ul class="navbar_menu">
+          <li class="navbar_menu_item">Home</li>
+          <li class="navbar_menu_item">About</li>
+          <li class="navbar_menu_item">Skills</li>
+          <li class="navbar_menu_item">Work</li>
+          <li class="navbar_menu_item">Testimonials</li>
+          <li class="navbar_menu_item">Contact</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Home -->
+    <section id="Home">
+      <img
+        src="imgs/profile.jpeg"
+        alt="Asher's profile photo"
+        class="home_avatar"
+      />
+      <h1 class="home_title">Hello, <br />I'm iOS Developer</h1>
+      <h2 class="home_description">
+        A Software Engineer who runs without giving up.
+      </h2>
+    </section>
     <!-- About -->
-    <section id="about"></section>
+    <section id="about">
+      <h1>About me</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem
+        nemo, officia culpa quos esse optio qui eum aspernatur iusto neque
+        similique exercitationem ex maxime minima quas tempora magnam eius?
+      </p>
+      <div class="about_majors">
+        <div class="major">
+          <div class="major_icon"><i class="fab fa-html5"></i></div>
+          <div id="major_title">Front-end</div>
+          <div id="major_description">
+            HTML, CSS, JavaScript, TypeScript,
+            <br />React, Vue, Web APIs
+          </div>
+        </div>
+        <div class="major">
+          <div class="major_icon"><i class="fab fa-mobile"></i></div>
+          <div id="major_title">Mobile</div>
+          <div id="major_description">
+            Android, iOS, React Native, Flutter,
+            <br />Java, Swift, Kotlin
+          </div>
+        </div>
+        <div class="major">
+          <div class="major_icon"><i class="fab fa-server"></i></div>
+          <div id="major_title">Back-end</div>
+          <div id="major_description">
+            Java, JavaScript, Swift,
+            <br />Rest APIs, GraphGL
+          </div>
+        </div>
+      </div>
+      <div id="about_jobs">
+        <div class="job">
+          <img src="imgs/jobs/hexarlogo.png" alt="hexar" class="job_logo" />
+          <p class="job_name"></p>
+          <p class="job_period"></p>
+        </div>
+        <div class="job">
+          <img src="imgs/jobs/hexarlogo.png" alt="hexar" class="job_logo" />
+          <p class="job_name"></p>
+          <p class="job_period"></p>
+        </div>
+      </div>
+    </section>
     <!-- Skills -->
     <section id="skills"></section>
     <!-- Work -->
